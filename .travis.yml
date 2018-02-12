@@ -1,4 +1,6 @@
 language: objective-c
 osx_image: xcode9.2
-xcode_project: FinancialAssistant.xcodeproj 
-xcode_scheme: FinancialAssistant 
+before_install:
+    - brew update
+    - brew install xctool
+script: xctool -workspace FinancialAssistant.xcodeproj -scheme FinancialAssistant test
