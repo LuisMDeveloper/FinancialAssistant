@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode9.2
+
+xcode_project: FinancialAssistant.xcodeproj
+xcode_scheme: FinancialAssistant
+
+script: xcrun xcodebuild test -project FinancialAssistant.xcodeproj -scheme FinancialAssistant -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.2'
