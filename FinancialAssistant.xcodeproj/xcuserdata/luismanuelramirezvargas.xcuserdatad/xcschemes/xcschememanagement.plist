@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FinancialAssistant.xcscheme</key>
+		<key>FinancialAssistant.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C15D7B852031275E009B1A28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C15D7B992031275E009B1A28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
